@@ -5,7 +5,7 @@ const space = "%20"
 const message = `
     Oii${space}Leticia,${space}tudo${space}bem?${space}gostaria${space}de${space}saber${space}sobre${space}seu${space}trabalho${space}de...
 `
-const whatsAppLink = `https://api.whatsapp.com/send?phone=${phone}&text=${message}`
+export const whatsAppLink = `https://api.whatsapp.com/send?phone=${phone}&text=${message}`
 
 export default function WhatssApp() {
   return (

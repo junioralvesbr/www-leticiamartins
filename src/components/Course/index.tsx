@@ -39,7 +39,7 @@ export default function Course() {
 
           <a
             href="https://curso.leticiamartins.com.br/"
-            className="bg-yellow-100 flex items-center gap-2 px-6 py-3 rounded-lg max-w-max transition-all hover:bg-yellow-200"
+            className="bg-rose-600 text-white flex items-center gap-2 px-6 py-3 rounded-lg max-w-max transition-all hover:bg-rose-700"
             target="_blank"
           >
             <span>Tenha mais informações sobre o curso</span>

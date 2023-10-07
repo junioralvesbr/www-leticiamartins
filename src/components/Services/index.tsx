@@ -1,11 +1,12 @@
 import Image from "next/image";
 import { FaArrowRightLong } from "react-icons/fa6";
+import { whatsAppLink } from '../Whatsapp'
 
 const data = [
   {
     image: "/images/cozinha.jpeg",
     alt: "Foto de cozinha organizada",
-    title: "Organização Residêncial",
+    title: "Organização Residencial",
     text: "Somos apaixonados por organização e atuamos em todos os ambientes da sua casa. Estamos aqui para te ouvir e elaborar um plano personalizado e perfeito para você e sua familia."
   },
   {
@@ -57,8 +58,8 @@ export default function Services() {
 
         <div className="flex justify-center mt-12">
           <a
-            href="#footer"
-            className="bg-yellow-100 flex items-center gap-2 px-6 py-3 rounded-lg max-w-max transition-all hover:bg-yellow-200"
+            href={whatsAppLink}
+            className="bg-rose-600 text-white flex items-center gap-2 px-6 py-3 rounded-lg max-w-max transition-all hover:bg-rose-700"
           >
             <span>Entre em contato comigo</span>
             <FaArrowRightLong />

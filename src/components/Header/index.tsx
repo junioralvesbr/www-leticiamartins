@@ -1,8 +1,9 @@
 import Image from "next/image";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 export default function Header() {
   return (
-    <section className="flex flex-col gap-6 p-4 pt-5 md:pt-10 md:flex-row md:justify-center md:items-center">
+    <section className="flex flex-col gap-6 p-4 pt-5 mx-auto md:pt-10 md:flex-row md:justify-center md:items-center">
       <div className="flex flex-col gap-5">
         <p className="text-stone-500 uppercase">
           Personal Organizer
@@ -14,12 +15,15 @@ export default function Header() {
 
         <h1 className="text-stone-500 text-lg">
           Organize a sua casa com a
-          <em className="uppercase"> Leticia Martins</em>
+          <em className="uppercase font-bold"> Leticia Martins</em>
         </h1>
 
-        <a href="#services"
-          className="bg-yellow-100 inline-block px-6 py-3 rounded-lg max-w-max transition-all hover:bg-yellow-200">
-          Conheça nossos serviços
+        <a
+          href="#services"
+          className="bg-rose-600 text-white flex items-center gap-2 px-6 py-3 rounded-lg max-w-max transition-all hover:bg-rose-700"
+        >
+          <span>Conheça nossos serviços</span>
+          <FaArrowRightLong />
         </a>
       </div>
 
