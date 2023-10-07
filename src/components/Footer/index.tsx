@@ -2,7 +2,7 @@ import { FaSquareFacebook, FaSquareInstagram } from "react-icons/fa6"
 
 export default function Footer() {
   return (
-    <footer className="bg-stone-900 py-20">
+    <footer className="bg-stone-900 py-20" id="footer">
       <div className="flex flex-col gap-12 items-center max-w-6xl mx-auto md:flex-row md:justify-between">
 
         <div>
@@ -26,6 +26,7 @@ export default function Footer() {
               <a
                 href="https://www.facebook.com/leticiamartinsorganizer/"
                 className="text-white hover:brightness-75 transition-all"
+                target='_blank'
               >
                 <FaSquareFacebook size="30px" />
               </a>
@@ -35,6 +36,7 @@ export default function Footer() {
               <a
                 href="https://www.instagram.com/leticiamartins.organizer/"
                 className="text-white hover:brightness-75 transition-all"
+                target='_blank'
               >
                 <FaSquareInstagram size="30px" />
               </a>

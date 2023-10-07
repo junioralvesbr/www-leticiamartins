@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 export default function Course() {
   return (
@@ -21,7 +22,7 @@ export default function Course() {
           </p>
 
           <h2 className="text-4xl">
-            Conheça o curso completo de organização de ambientes para sua casa
+            Conheça o curso mais completo de organização de ambientes para sua casa
           </h2>
 
           <p className="text-stone-500 text-lg">
@@ -36,9 +37,13 @@ export default function Course() {
             Você terá todas as ferramentas para conquistar uma casa organizada de forma prática, leve e eficiente.
           </p>
 
-          <a href="https://curso.leticiamartins.com.br/"
-            className="bg-yellow-100 inline-block px-6 py-3 rounded-lg max-w-max transition-all hover:bg-yellow-200">
-            Saiba mais...
+          <a
+            href="https://curso.leticiamartins.com.br/"
+            className="bg-yellow-100 flex items-center gap-2 px-6 py-3 rounded-lg max-w-max transition-all hover:bg-yellow-200"
+            target="_blank"
+          >
+            <span>Tenha mais informações sobre o curso</span>
+            <FaArrowRightLong />
           </a>
 
         </article>

@@ -13,6 +13,7 @@ export default function NavBar() {
             <a
               href="https://www.facebook.com/leticiamartinsorganizer/"
               className="text-stone-600 hover:brightness-50 transition-all"
+              target='_blank'
             >
               <FaSquareFacebook size="30px" />
             </a>
@@ -22,6 +23,7 @@ export default function NavBar() {
             <a
               href="https://www.instagram.com/leticiamartins.organizer/"
               className="text-stone-600 hover:brightness-50 transition-all"
+              target='_blank'
             >
               <FaSquareInstagram size="30px" />
             </a>
