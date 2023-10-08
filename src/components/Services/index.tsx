@@ -11,8 +11,8 @@ const data = [
   },
   {
     image: "/images/mudanca.jpeg",
-    alt: "Foto de serviço de pós mudanças",
-    title: "Pós Mudanças",
+    alt: "Foto de serviço de pós Mudança",
+    title: "Pós Mudança",
     text: "Sabemos que o processo de mudança residencial, pode ser desafiador e estressante, mas com um pouco de planejamento e organização, é possível transformar o caos em conforto na sua nova casa."
   },
   {
@@ -25,9 +25,9 @@ const data = [
 
 export default function Services() {
   return (
-    <section className="px-3 mt-32" id="services">
+    <section className="px-8 mt-20 md:mt-32" id="services">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold">Nossos Seviços</h2>
+        <h2 className="text-3xl font-bold">Nossos Serviços</h2>
 
         <div className="grid gap-3 sm:grid-cols-2 md:grid-cols-3 md:justify-center">
 
@@ -48,7 +48,7 @@ export default function Services() {
                 {item.title}
               </h3>
 
-              <p className="text-stone-600 pr-28 mt-8 leading-10 text-lg">
+              <p className="text-stone-600 mt-8 text-lg md:pr-28 md:leading-10">
                 {item.text}
               </p>
 
@@ -59,7 +59,7 @@ export default function Services() {
         <div className="flex justify-center mt-12">
           <a
             href={whatsAppLink}
-            className="bg-rose-600 text-white flex items-center gap-2 px-6 py-3 rounded-lg max-w-max transition-all hover:bg-rose-700"
+            className="bg-primary text-white flex items-center gap-2 px-6 py-3 rounded-lg max-w-max transition-all hover:bg-rose-400"
           >
             <span>Entre em contato comigo</span>
             <FaArrowRightLong />

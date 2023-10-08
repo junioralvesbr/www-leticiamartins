@@ -18,11 +18,11 @@ export default function Course() {
 
         <article className="flex flex-col gap-6">
           <p className="text-stone-500">
-            Curso organize sua casa
+            Curso Organize sua casa
           </p>
 
           <h2 className="text-4xl">
-            Conheça o curso mais completo de organização de ambientes para sua casa
+            Conheça o curso mais completo de organização de ambientes para sua casa.
           </h2>
 
           <p className="text-stone-500 text-lg">
@@ -39,7 +39,7 @@ export default function Course() {
 
           <a
             href="https://curso.leticiamartins.com.br/"
-            className="bg-rose-600 text-white flex items-center gap-2 px-6 py-3 rounded-lg max-w-max transition-all hover:bg-rose-700"
+            className="bg-primary text-white flex items-center gap-2 px-6 py-3 rounded-lg max-w-max transition-all hover:bg-rose-400"
             target="_blank"
           >
             <span>Tenha mais informações sobre o curso</span>

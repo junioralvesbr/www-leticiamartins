@@ -14,6 +14,7 @@ export default function NavBar() {
               href="https://www.facebook.com/leticiamartinsorganizer/"
               className="text-stone-600 hover:brightness-50 transition-all"
               target='_blank'
+              aria-label='Link que leva para pagina do facebook'
             >
               <FaSquareFacebook size="30px" />
             </a>
@@ -24,6 +25,7 @@ export default function NavBar() {
               href="https://www.instagram.com/leticiamartins.organizer/"
               className="text-stone-600 hover:brightness-50 transition-all"
               target='_blank'
+              aria-label='Link que leva para pagina do instagram'
             >
               <FaSquareInstagram size="30px" />
             </a>

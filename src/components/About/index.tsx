@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Aboult() {
   return (
-    <section className="mt-12 px-3 md:mt-32">
+    <section className="mt-12 px-8 md:mt-32">
       <article
         className="flex flex-col items-center gap-6 max-w-6xl mx-auto md:flex-row md:justify-between md:gap-20">
         <Image
@@ -16,11 +16,11 @@ export default function Aboult() {
 
         <div>
           <p className="text-stone-600 text-xl">
-            A organização vai além de apenas colocar objetos em seu devido lugar
+            A organização vai além de apenas colocar objetos em seu devido lugar.
           </p>
 
           <h2 className="text-3xl text-center leading-[52px] mt-10 md:text-left">
-            Ela traz facilidade e simplicidade para o seu dia a dia, tornando tudo mais prático e eficiente
+            Ela traz facilidade e simplicidade para o seu dia a dia, tornando tudo mais prático e eficiente.
           </h2>
         </div>
       </article>
