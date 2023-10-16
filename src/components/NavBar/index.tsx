@@ -79,13 +79,21 @@ export default function NavBar() {
       </div>
       <ul className="navbar-end gap-4">
         <li>
-          <a href="https://www.facebook.com/leticiamartinsorganizer/" target='_blank'>
+          <a
+            href="https://www.facebook.com/leticiamartinsorganizer/"
+            target='_blank'
+            aria-label='Link do perfil do facebook'
+          >
             <FaSquareFacebook size={28} className="text-stone-700 hover:text-stone-900" />
           </a>
         </li>
 
         <li>
-          <a href="https://www.instagram.com/leticiamartins.organizer/" target='_blank'>
+          <a
+            href="https://www.instagram.com/leticiamartins.organizer/"
+            target='_blank'
+            aria-label='Link do perfil do instagram'
+          >
             <FaSquareInstagram size={28} className="text-stone-700 hover:text-stone-900" />
           </a>
         </li>
