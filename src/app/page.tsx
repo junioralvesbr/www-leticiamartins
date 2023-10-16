@@ -1,10 +1,10 @@
 import { Metadata } from "next";
-import Header from "@/components/Header";
-import Cards from "@/components/Cards";
-import Services from "@/components/Services";
-import Aboult from "@/components/About";
-import Video from "@/components/Video";
-import Course from "@/components/Course";
+import Header from "@/components/Home/Header";
+import Cards from "@/components/Home/Cards";
+import Services from "@/components/Home/Services";
+import Aboult from "@/components/Home/About";
+import Video from "@/components/Home/Video";
+import Course from "@/components/Home/Course";
 
 
 export const metadata: Metadata = {

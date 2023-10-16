@@ -4,7 +4,7 @@ import { Analytics } from '@vercel/analytics/react'
 import { Jost } from 'next/font/google'
 import NavBar from '../components/NavBar'
 import Footer from '@/components/Footer'
-import WhatssApp from '@/components/Whatsapp'
+import { WhatssAppIcon } from '@/components/Whatsapp'
 import '../styles/global.css'
 
 const jost = Jost({
@@ -55,7 +55,7 @@ export default function RootLayout({
         <NavBar />
         {children}
         <Footer />
-        <WhatssApp />
+        <WhatssAppIcon />
         <Analytics />
       </body>
     </html>

@@ -1,3 +1,4 @@
+import { WhatsAppButton } from "@/components/Whatsapp";
 import Image from "next/image";
 
 export default function Aboult() {
@@ -25,15 +26,18 @@ export default function Aboult() {
         </div>
       </article>
 
-      <div className="mt-10 max-w-6xl mx-auto">
+      <div className="flex flex-col gap-8 mt-10 max-w-6xl mx-auto">
         <p className="text-2xl text-stone-800">
           Um ambiente organizado traz diversos benefícios, como redução do estresse, aumento da produtividade, economia de tempo na limpeza e manutenção, melhoria na qualidade de vida e sensação de tranquilidade e bem-estar.
         </p>
 
-        <p className="text-xl text-stone-500 mt-6">
+        <p className="text-xl text-stone-500">
           Além disso, uma organização eficiente permite melhor aproveitamento do espaço disponível, facilitando a circulação e tornando os ambientes mais funcionais e agradáveis.
         </p>
+
+        <WhatsAppButton>Entre em contato comigo</WhatsAppButton>
       </div>
+
     </section>
   )
 }

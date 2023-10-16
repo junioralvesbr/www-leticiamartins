@@ -1,25 +1,27 @@
 import Image from "next/image";
-import { FaArrowRightLong } from "react-icons/fa6";
-import { whatsAppLink } from '../Whatsapp'
+import Link from "next/link";
 
 const data = [
   {
     image: "/images/cozinha.jpeg",
     alt: "Foto de cozinha organizada",
     title: "Organização Residencial",
-    text: "Somos apaixonados por organização e atuamos em todos os ambientes da sua casa. Estamos aqui para te ouvir e elaborar um plano personalizado e perfeito para você e sua familia."
+    text: "Somos apaixonados por organização e atuamos em todos os ambientes da sua casa. Estamos aqui para te ouvir e elaborar um plano personalizado e perfeito para o conforto seu e de sua familia.",
+    link: '/residencial'
   },
   {
     image: "/images/mudanca.jpeg",
     alt: "Foto de serviço de pós Mudança",
     title: "Pós Mudança",
-    text: "Sabemos que o processo de mudança residencial, pode ser desafiador e estressante, mas com um pouco de planejamento e organização, é possível transformar o caos em conforto na sua nova casa."
+    text: "Sabemos que o processo de mudança residencial, pode ser desafiador e estressante, mas com um pouco de planejamento e organização, é possível transformar o caos em conforto na sua nova casa.",
+    link: '/posmudanca'
   },
   {
     image: "/images/loja.jpeg",
     alt: "Foto de loja organizada",
     title: "Organização Empresarial",
-    text: "A organização eficiente é a chave para o sucesso de qualquer empresa. Dessa forma, uma empresa bem organizada tende a ser mais produtiva, competitiva e capaz de se adaptar às mudanças do mercado."
+    text: "A organização eficiente é a chave para o sucesso de qualquer empresa. Dessa forma, uma empresa bem organizada tende a ser mais produtiva, competitiva e capaz de se adaptar às mudanças do mercado.",
+    link: '/comercial'
   },
 ]
 
@@ -52,18 +54,14 @@ export default function Services() {
                 {item.text}
               </p>
 
+              <Link
+                className="text-2xl inline-block mt-10 text-primary hover:text-rose-400"
+                href={item.link}
+              >
+                Saiba mais...
+              </Link>
             </article>
           ))}
-        </div>
-
-        <div className="flex justify-center mt-12">
-          <a
-            href={whatsAppLink}
-            className="bg-primary text-white flex items-center gap-2 px-6 py-3 rounded-lg max-w-max transition-all hover:bg-rose-400"
-          >
-            <span>Entre em contato comigo</span>
-            <FaArrowRightLong />
-          </a>
         </div>
       </div>
     </section>

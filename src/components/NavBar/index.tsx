@@ -40,7 +40,7 @@ export default function NavBar() {
           </ul>
         </div>
         <Link href='/'
-          className="font-autograph whitespace-nowrap normal-case text-4xl hover:underline">
+          className="font-autograph whitespace-nowrap normal-case text-4xl hover:text-rose-400">
           Leticia Martins
         </Link>
       </div>

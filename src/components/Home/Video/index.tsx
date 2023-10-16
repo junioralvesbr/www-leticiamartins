@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Video() {
   return (
-    <section className="mt-32">
+    <section>
       <div className="h-[400px] relative md:h-[554px]">
         <Image
           className="z-0 object-cover"
@@ -13,7 +13,7 @@ export default function Video() {
           loading="lazy"
         />
 
-        <div className="z-10 absolute inset-0 bg-fundo flex flex-col justify-center items-center gap-12">
+        <div className="z-10 absolute inset-0 bg-secondary flex flex-col justify-center items-center gap-12">
           <p className="z-10 text-white text-2xl text-center max-w-2xl md:text-3xl md:leading-10">
             Elaboramos soluções personalizadas para a organização da sua casa ou empresa.
           </p>

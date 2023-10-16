@@ -1,4 +1,5 @@
 import { FaWhatsapp } from 'react-icons/fa'
+import { FaArrowRightLong } from 'react-icons/fa6'
 
 const phone = "5544998138138"
 const space = "%20"
@@ -7,7 +8,7 @@ const message = `
 `
 export const whatsAppLink = `https://api.whatsapp.com/send?phone=${phone}&text=${message}`
 
-export default function WhatssApp() {
+export function WhatssAppIcon() {
   return (
     <a href={whatsAppLink} target='blank' className='flex flex-col fixed bottom-4 right-5 z-20 ease-in-out'>
       <div className='bg-green-600 w-12 h-12 rounded-full flex justify-center items-center self-end'>
@@ -18,5 +19,20 @@ export default function WhatssApp() {
         Seja atendido com 1 click
       </span>
     </a>
+  )
+}
+
+export function WhatsAppButton({ children }: any) {
+  return (
+    <div className='flex justify-center mb-24'>
+      <a
+        href={whatsAppLink}
+        className="bg-primary text-white flex items-center gap-2 px-6 py-3 rounded-lg max-w-max transition-all hover:bg-rose-400"
+        target='_blank'
+      >
+        <span>{children}</span>
+        <FaArrowRightLong />
+      </a>
+    </div>
   )
 }
