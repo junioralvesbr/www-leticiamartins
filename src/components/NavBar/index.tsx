@@ -1,7 +1,19 @@
+'use client'
+
 import Link from 'next/link'
 import { FaSquareFacebook, FaSquareInstagram } from 'react-icons/fa6'
+import { useRef } from 'react'
+
 
 export default function NavBar() {
+  const detailsRef = useRef<HTMLDetailsElement>(null)
+
+  function handleClick() {
+    if (detailsRef.current !== null) {
+      detailsRef.current.open = false
+    }
+  }
+
   return (
     <nav className="navbar bg-base-100 border-b-[1px] px-4 md:px-12">
 
@@ -55,13 +67,19 @@ export default function NavBar() {
           </li>
 
           <li tabIndex={0}>
-            <details>
+            <details id="details" ref={detailsRef}>
               <summary className='text-xl'>Serviços</summary>
 
               <ul className="p-2">
-                <li><Link href="/residencial" className='text-lg whitespace-nowrap'>Organização Residencial</Link></li>
-                <li><Link href="/posmudanca" className='text-lg whitespace-nowrap'>Pós Mudança</Link></li>
-                <li><Link href="/comercial" className='text-lg whitespace-nowrap'>Organização Comercial</Link></li>
+                <li onClick={handleClick}>
+                  <Link href="/residencial" className='text-lg whitespace-nowrap'>Organização Residencial</Link>
+                </li>
+                <li onClick={handleClick}>
+                  <Link href="/posmudanca" className='text-lg whitespace-nowrap'>Pós Mudança</Link>
+                </li>
+                <li onClick={handleClick}>
+                  <Link href="/comercial" className='text-lg whitespace-nowrap'>Organização Comercial</Link>
+                </li>
               </ul>
             </details>
           </li>
