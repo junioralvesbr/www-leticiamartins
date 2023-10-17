@@ -7,8 +7,7 @@ export default function Aboult() {
       <article
         className="flex flex-col items-center gap-6 max-w-6xl mx-auto md:flex-row md:justify-between md:gap-20">
         <Image
-          className="rounded-full"
-          src='/images/about.jpg'
+          src='/images/about.png'
           alt="Foto de perfil de Laticia Martins"
           width={320}
           height={320}

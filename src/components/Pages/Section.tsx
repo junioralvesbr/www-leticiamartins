@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { WhatsAppButton } from '../Whatsapp'
 
 export default function Section({ data }: any) {
@@ -12,8 +13,11 @@ export default function Section({ data }: any) {
         >
 
           <figure className="lg:max-w-[640px]">
-            <img src={item.image} alt="foto de closet"
-              className="w-full h-auto"
+            <Image
+              src={item.image}
+              alt="foto de closet"
+              width={640}
+              height={640}
             />
           </figure>
 
