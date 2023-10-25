@@ -9,9 +9,9 @@ export default function Aboult() {
         <Image
           src='/images/about.png'
           alt="Foto de perfil de Laticia Martins"
-          width={320}
-          height={320}
-          loading="lazy"
+          width={350}
+          height={350}
+          quality={80}
         />
 
         <div>

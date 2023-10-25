@@ -6,14 +6,14 @@ const data = [
     image: "/images/cozinha.jpeg",
     alt: "Foto de cozinha organizada",
     title: "Organização Residencial",
-    text: "Somos apaixonados por organização e atuamos em todos os ambientes da sua casa. Estamos aqui para te ouvir e elaborar um plano personalizado e perfeito para o conforto seu e de sua familia.",
+    text: "Somos apaixonados por organização e atuamos em todos os ambientes da sua casa. Estamos aqui para te ouvir e elaborar um plano personalizado e perfeito para seu conforto e de sua familia.",
     link: '/residencial'
   },
   {
     image: "/images/mudanca.jpeg",
     alt: "Foto de serviço de pós Mudança",
     title: "Pós Mudança",
-    text: "Sabemos que o processo de mudança residencial, pode ser desafiador e estressante, mas com um pouco de planejamento e organização, é possível transformar o caos em conforto na sua nova casa.",
+    text: "Sabemos que o processo de mudança residencial, pode ser desafiador e estressante, mas planejamento e organização, é possível transformar o caos em conforto na sua nova casa.",
     link: '/posmudanca'
   },
   {
