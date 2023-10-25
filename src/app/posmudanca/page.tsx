@@ -10,22 +10,22 @@ const data = [
   {
     image: "/images/estoque.jpg",
     alt: "Foto de estoque",
-    title: "Estoques e almoxarifados",
-    text: "A gestão de estoques e almoxarifados potencializam a rentabilidade de qualquer organização. Por isso é fundamental mantê-los organizados afim de que a empresa sempre esteja abastecida e não tenha custos desnecessários com produtos e insumos. A organização destes setores tem por objetivo aumentar a produtividade e a agilidade no manuseio dos produtos pelos colaboradores.",
+    title: "Conte com a minha equipe",
+    text: "Ao contar com a ajuda de uma equipe de personal organizer, você terá alguém especializado em organização que irá planejar cada etapa da mudança, desde a seleção dos itens a serem levados até a organização final na nova casa.",
     reverse: false
   },
   {
     image: "/images/atelie.jpg",
     alt: "foto de ateliê",
-    title: "Ateliê",
-    text: "O ateliê é aquele cantinho agradável onde podemos nos refugiar no mundo da arte. E ter um ateliê organizado é muito mais prazeroso para trabalhar e produzir lindas peças. Pois o que realmente importa é que esse local seja organizado para que você possa trabalhar com tranquilidade e praticidade.",
+    title: "Nosso trabalho",
+    text: "Isso inclui otimizar o espaço nos armários, criar sistemas de organização eficientes e encontrar soluções práticas para armazenar seus pertences. Além disso, ela pode oferecer orientações sobre como manter a organização a longo prazo, o que facilitará sua adaptação ao novo lar.",
     reverse: true
   },
   {
     image: "/images/loja.jpg",
     alt: "foto de loja comercial",
     title: "Loja comercial",
-    text: "Uma loja organizada com os produtos bem dispostos é uma ferramenta importante para atrair e proporcionar conforto e bem estar para os seus clientes. A organização pode chamar a atenção dos consumidores, melhorar seu atendimento, facilitar o trabalhos dos seus colaboradores e consequentemente aumentar as suas vendas.",
+    text: "A equipe Leticia Martins está pronta para te oferecer uma experiência única e exclusiva, com todo conforto e tranquilidade para você e sua familia.",
     reverse: false
   },
 ]

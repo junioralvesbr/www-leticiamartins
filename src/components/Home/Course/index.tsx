@@ -1,5 +1,5 @@
+import LinkBuntton from "@/components/LinkButton";
 import Image from "next/image";
-import { FaArrowRightLong } from "react-icons/fa6";
 
 export default function Course() {
   return (
@@ -37,14 +37,9 @@ export default function Course() {
             Você terá todas as ferramentas para conquistar uma casa organizada de forma prática, leve e eficiente.
           </p>
 
-          <a
-            href="https://curso.leticiamartins.com.br/"
-            className="bg-primary text-white flex items-center gap-2 px-6 py-3 rounded-lg max-w-max transition-all hover:bg-rose-400"
-            target="_blank"
-          >
-            <span>Tenha mais informações sobre o curso</span>
-            <FaArrowRightLong />
-          </a>
+          <LinkBuntton href="https://curso.leticiamartins.com.br/" target="_blank">
+            Tenha mais informações sobre o curso
+          </LinkBuntton>
 
         </article>
       </div>

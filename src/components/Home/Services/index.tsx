@@ -1,5 +1,5 @@
+import LinkBuntton from "@/components/LinkButton";
 import Image from "next/image";
-import Link from "next/link";
 
 const data = [
   {
@@ -13,7 +13,7 @@ const data = [
     image: "/images/mudanca.jpeg",
     alt: "Foto de serviço de pós Mudança",
     title: "Pós Mudança",
-    text: "Sabemos que o processo de mudança residencial, pode ser desafiador e estressante, mas planejamento e organização, é possível transformar o caos em conforto na sua nova casa.",
+    text: "Sabemos que o processo de mudança residencial, pode ser desafiador e estressante, mas com planejamento e organização, é possível transformar o caos em conforto, simplificando a mudança para a sua nova casa.",
     link: '/posmudanca'
   },
   {
@@ -54,12 +54,12 @@ export default function Services() {
                 {item.text}
               </p>
 
-              <Link
-                className="text-2xl inline-block mt-10 text-primary hover:text-rose-400"
-                href={item.link}
-              >
-                Saiba mais...
-              </Link>
+              <div className="mt-10">
+                <LinkBuntton href={item.link}>
+                  Saiba mais
+                </LinkBuntton>
+              </div>
+
             </article>
           ))}
         </div>

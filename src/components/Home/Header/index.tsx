@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { FaArrowRightLong } from "react-icons/fa6";
+import LinkBuntton from "@/components/LinkButton";
 
 export default function Header() {
   return (
@@ -18,13 +18,10 @@ export default function Header() {
           <em className="uppercase font-bold"> Leticia Martins</em>
         </h1>
 
-        <a
-          href="#services"
-          className="bg-primary text-white flex items-center gap-2 px-6 py-3 rounded-lg max-w-max transition-all hover:bg-rose-400"
-        >
-          <span>Conheça nossos serviços</span>
-          <FaArrowRightLong />
-        </a>
+        <LinkBuntton href="#services">
+          Conheça nossos serviços
+        </LinkBuntton>
+
       </div>
 
       <picture>

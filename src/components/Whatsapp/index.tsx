@@ -1,5 +1,4 @@
 import { FaWhatsapp } from 'react-icons/fa'
-import { FaArrowRightLong } from 'react-icons/fa6'
 
 const phone = "5544998138138"
 const space = "%20"
@@ -19,20 +18,5 @@ export function WhatssAppIcon() {
         Seja atendido com 1 click
       </span>
     </a>
-  )
-}
-
-export function WhatsAppButton({ children }: any) {
-  return (
-    <div className='flex justify-center mb-24'>
-      <a
-        href={whatsAppLink}
-        className="bg-primary text-white flex items-center gap-2 px-6 py-3 rounded-lg max-w-max transition-all hover:bg-rose-400"
-        target='_blank'
-      >
-        <span>{children}</span>
-        <FaArrowRightLong />
-      </a>
-    </div>
   )
 }

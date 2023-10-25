@@ -1,9 +1,10 @@
 import Image from 'next/image'
-import { WhatsAppButton } from '../Whatsapp'
+import { whatsAppLink } from '../Whatsapp'
+import LinkBuntton from '../LinkButton'
 
 export default function Section({ data }: any) {
   return (
-    <section>
+    <section className='py-12'>
       {data && data.map((item: any, index: any) => (
         <article
           className={`flex flex-col justify-center items-center gap-5 mb-24 md:gap-8
@@ -34,7 +35,11 @@ export default function Section({ data }: any) {
         </article>
       ))}
 
-      <WhatsAppButton>Entre em contato comigo</WhatsAppButton>
+      <div className="flex justify-center">
+        <LinkBuntton href={whatsAppLink} target='_blank'>
+          Entre em contato comigo
+        </LinkBuntton>
+      </div>
     </section>
   )
 }
