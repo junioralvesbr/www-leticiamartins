@@ -17,19 +17,26 @@ export default function Footer() {
 
         <div>
           <ul>
-            <h2 className="text-white text-xl">Serviços:</h2>
+            <h2 className="text-xl text-primary font-bold">Serviços:</h2>
 
-            <li className="text-white text-xl">
+            <li className="text-white mt-6 hover:underline">
               <Link href="/">Inicio</Link>
             </li>
-            <li className="text-white text-xl">
+            <li className="text-white mt-6 hover:underline">
               <Link href="/residencial">Organização Residencial</Link>
             </li>
-            <li className="text-white text-xl">
+            <li className="text-white mt-6 hover:underline">
               <Link href="/posmudanca">Pós Mudança</Link>
             </li>
-            <li className="text-white text-xl">
+            <li className="text-white mt-6 hover:underline">
               <Link href="/comercial">Organização Comercial</Link>
+            </li>
+            <li className="text-white mt-6 hover:underline">
+              <Link href="https://www.google.com.br/maps/place/Maring%C3%A1+-+Floriano,+Maring%C3%A1+-+PR/@-23.4105016,-52.1354171,11z/data=!3m1!4b1!4m6!3m5!1s0x94ecd6ee42618c1f:0xc356592828e03925!8m2!3d-23.4209995!4d-51.9330558!16zL20vMDF0dnpx?entry=ttu"
+                target="_blank"
+              >
+                Maringá - Pr
+              </Link>
             </li>
           </ul>
         </div>
@@ -65,16 +72,6 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-      </div>
-
-      <div className="py-5">
-        <Link
-          href="https://www.google.com.br/maps/place/Maring%C3%A1+-+Floriano,+Maring%C3%A1+-+PR/@-23.4105016,-52.1354171,11z/data=!3m1!4b1!4m6!3m5!1s0x94ecd6ee42618c1f:0xc356592828e03925!8m2!3d-23.4209995!4d-51.9330558!16zL20vMDF0dnpx?entry=ttu"
-          target="_blank"
-          className="text-white text-xl text-center inline-block w-full"
-        >
-          Maringá - Pr
-        </Link>
       </div>
     </footer>
   )
