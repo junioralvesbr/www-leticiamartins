@@ -19,6 +19,7 @@ export default function Section({ data }: any) {
               alt="foto de closet"
               width={640}
               height={640}
+              quality={100}
             />
           </figure>
 

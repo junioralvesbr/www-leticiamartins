@@ -8,24 +8,24 @@ export const metadata: Metadata = {
 
 const data = [
   {
-    image: "/images/estoque.jpg",
-    alt: "Foto de estoque",
+    image: "/images/equipe-mudanca.png",
+    alt: "Foto de equipe",
     title: "Conte com a minha equipe",
-    text: "Ao contar com a ajuda de uma equipe de personal organizer, você terá alguém especializado em organização que irá planejar cada etapa da mudança, desde a seleção dos itens a serem levados até a organização final na nova casa.",
+    text: "Ao contar com a ajuda da minha equipe de personal organizer, você terá alguém especializado em organização que irá planejar cada etapa da mudança, desde a seleção dos itens a serem levados até a organização final na nova casa.",
     reverse: false
   },
   {
-    image: "/images/atelie.jpg",
-    alt: "foto de ateliê",
+    image: "/images/cozinha-mudanca.png",
+    alt: "foto de cozinha.mudanca",
     title: "Nosso trabalho",
-    text: "Isso inclui otimizar o espaço nos armários, criar sistemas de organização eficientes e encontrar soluções práticas para armazenar seus pertences. Além disso, ela pode oferecer orientações sobre como manter a organização a longo prazo, o que facilitará sua adaptação ao novo lar.",
+    text: "Isso inclui otimizar o espaço nos armários, criar sistemas de organização eficientes e encontrar soluções práticas para armazenar seus pertences. Além disso, oferecemos orientações sobre como manter a organização a longo prazo, o que facilitará sua adaptação ao novo lar.",
     reverse: true
   },
   {
-    image: "/images/loja.jpg",
-    alt: "foto de loja comercial",
-    title: "Loja comercial",
-    text: "A equipe Leticia Martins está pronta para te oferecer uma experiência única e exclusiva, com todo conforto e tranquilidade para você e sua familia.",
+    image: "/images/quarto-mudanca.png",
+    alt: "foto de quarto-mudanca",
+    title: "Mudança organizada",
+    text: "Estamos prontos para te oferecer uma experiência única e exclusiva, com todo conforto e tranquilidade que você e sua familia merece.",
     reverse: false
   },
 ]

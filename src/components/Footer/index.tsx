@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { FaSquareFacebook, FaSquareInstagram } from "react-icons/fa6"
 
 export default function Footer() {
@@ -15,36 +16,65 @@ export default function Footer() {
         </div>
 
         <div>
-          <a
+          <ul>
+            <h2 className="text-white text-xl">Serviços:</h2>
+
+            <li className="text-white text-xl">
+              <Link href="/">Inicio</Link>
+            </li>
+            <li className="text-white text-xl">
+              <Link href="/residencial">Organização Residencial</Link>
+            </li>
+            <li className="text-white text-xl">
+              <Link href="/posmudanca">Pós Mudança</Link>
+            </li>
+            <li className="text-white text-xl">
+              <Link href="/comercial">Organização Comercial</Link>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <Link
             href="tel:+5544998138138"
             className="text-2xl text-white hover:brightness-75 transition-all"
           >
             44 9 9813-8138
-          </a>
+          </Link>
           <ul className="flex justify-center gap-2 mt-2 md:justify-end">
             <li>
-              <a
+              <Link
                 href="https://www.facebook.com/leticiamartinsorganizer/"
                 className="text-white hover:brightness-75 transition-all"
                 target='_blank'
                 aria-label='Link que leva para pagina do facebook'
               >
                 <FaSquareFacebook size="30px" />
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a
+              <Link
                 href="https://www.instagram.com/leticiamartins.organizer/"
                 className="text-white hover:brightness-75 transition-all"
                 target='_blank'
                 aria-label='Link que leva para pagina do instagram'
               >
                 <FaSquareInstagram size="30px" />
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
+      </div>
+
+      <div className="py-5">
+        <Link
+          href="https://www.google.com.br/maps/place/Maring%C3%A1+-+Floriano,+Maring%C3%A1+-+PR/@-23.4105016,-52.1354171,11z/data=!3m1!4b1!4m6!3m5!1s0x94ecd6ee42618c1f:0xc356592828e03925!8m2!3d-23.4209995!4d-51.9330558!16zL20vMDF0dnpx?entry=ttu"
+          target="_blank"
+          className="text-white text-xl text-center inline-block w-full"
+        >
+          Maringá - Pr
+        </Link>
       </div>
     </footer>
   )

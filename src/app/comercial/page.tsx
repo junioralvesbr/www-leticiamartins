@@ -8,8 +8,8 @@ export const metadata: Metadata = {
 
 const data = [
   {
-    image: "/images/estoque.jpg",
-    alt: "Foto de estoque",
+    image: "/images/almoxarifado.png",
+    alt: "Foto de almoxarifado",
     title: "Estoques e almoxarifados",
     text: "A gestão de estoques e almoxarifados potencializam a rentabilidade de qualquer organização. Por isso é fundamental mantê-los organizados afim de que a empresa sempre esteja abastecida e não tenha custos desnecessários com produtos e insumos. A organização destes setores tem por objetivo aumentar a produtividade e a agilidade no manuseio dos produtos pelos colaboradores.",
     reverse: false

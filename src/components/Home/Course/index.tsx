@@ -4,11 +4,11 @@ import Image from "next/image";
 export default function Course() {
   return (
     <section className="py-20">
-      <div className="flex flex-col gap-8 px-6 max-w-6xl mx-auto lg:flex-row lg:items-center">
+      <div className="flex flex-col gap-8 lg:justify-center lg:flex-row lg:items-center lg:px-48 lg:py-24">
         <picture className="">
           <Image
             className="object-contain"
-            src="/images/foto-curso.png"
+            src="/images/curso.png"
             alt="Foto do curso Organize sua Casa"
             width={1024}
             height={1024}
@@ -16,7 +16,7 @@ export default function Course() {
           />
         </picture>
 
-        <article className="flex flex-col gap-6">
+        <article className="flex flex-col gap-6 px-6">
           <p className="text-stone-500">
             Curso Organize sua casa
           </p>
