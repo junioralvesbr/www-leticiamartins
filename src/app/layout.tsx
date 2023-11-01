@@ -24,9 +24,6 @@ export const metadata: Metadata = {
     }
   },
   authors: { name: "Junior Alves" },
-  alternates: {
-    canonical: 'https://leticiamartins.com.br'
-  },
   icons: {
     icon: [
       { url: '/favicon/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
