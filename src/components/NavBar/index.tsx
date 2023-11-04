@@ -70,7 +70,7 @@ export default function NavBar() {
             <details id="details" ref={detailsRef}>
               <summary className='text-xl'>Serviços</summary>
 
-              <ul className="p-2">
+              <ul className="p-2 z-50">
                 <li onClick={handleClick}>
                   <Link href="/residencial" className='text-lg whitespace-nowrap'>Organização Residencial</Link>
                 </li>

@@ -9,6 +9,10 @@ export const metadata: Metadata = {
   },
 }
 
+const banner = {
+  image: '/images/banner-residencial.png',
+  alt: "foto e banner da pagina residencial Leticia Martins"
+}
 
 const data = [
   {
@@ -41,7 +45,11 @@ export default function Home() {
   return (
     <>
       <header>
-        <Header>Organização Residencial</Header>
+        <Header
+          banner={banner}
+        >
+          Organização Residencial
+        </Header>
       </header>
 
       <main>
