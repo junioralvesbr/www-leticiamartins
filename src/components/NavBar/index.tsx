@@ -32,6 +32,12 @@ export default function NavBar() {
             </li>
 
             <li>
+              <Link href="/sobremim" className='text-lg'>
+                Sobre Mim
+              </Link>
+            </li>
+
+            <li>
               <span className='text-lg'>Serviços</span>
               <ul className="p-2">
                 <li><Link href="/residencial" className='text-lg'>Organização Residencial</Link></li>
@@ -63,6 +69,12 @@ export default function NavBar() {
           <li>
             <Link href="/" className='text-xl'>
               Inicio
+            </Link>
+          </li>
+
+          <li>
+            <Link href="/sobremim" className='text-lg'>
+              Sobre Mim
             </Link>
           </li>
 
