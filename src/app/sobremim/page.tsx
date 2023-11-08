@@ -1,7 +1,14 @@
+import { Metadata } from "next";
 import LinkBuntton from "@/components/LinkButton";
 import AboultMe from "@/components/AboutMe";
 import { whatsAppLink } from "@/components/Whatsapp";
 import SwiperCaroucel from "@/components/SwiperCaroucel/page";
+import Video from "@/components/Video";
+
+
+export const metadata: Metadata = {
+  title: 'Sobre Mim - Leticia Martins Personal Organizer',
+}
 
 export default function AboutMe() {
   return (
@@ -27,18 +34,7 @@ export default function AboutMe() {
             </LinkBuntton>
           </article>
 
-          <div className="w-full h-full relative pb-[56.25%] rounded-lg">
-            <iframe
-              className="w-full h-full absolute inset-0 overflow-hidden rounded-lg"
-              src="https://streamable.com/e/w80woi?autoplay=1&nocontrols=1"
-              width="100%"
-              height="100%"
-              allowFullScreen
-              allow="autoplay"
-            >
-            </iframe>
-          </div>
-
+          <Video />
         </section>
 
       </header>

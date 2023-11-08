@@ -10,7 +10,7 @@ import Course from "@/components/Home/Course";
 export const metadata: Metadata = {
   title: 'Leticia Martins Personal Organizer',
   alternates: {
-    canonical: 'https://leticiamartins.com.br'
+    canonical: 'https://www.leticiamartins.com.br'
   },
 }
 
