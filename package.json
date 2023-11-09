@@ -12,9 +12,9 @@
   },
   "dependencies": {
     "@vercel/analytics": "^1.1.0",
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest",
+    "next": "^14.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-icons": "^4.11.0",
     "swiper": "^11.0.3"
   },
@@ -25,7 +25,7 @@
     "autoprefixer": "latest",
     "daisyui": "^3.9.2",
     "eslint": "latest",
-    "eslint-config-next": "latest",
+    "eslint-config-next": "^14.0.1",
     "postcss": "latest",
     "tailwindcss": "latest",
     "typescript": "latest"
