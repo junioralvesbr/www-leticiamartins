@@ -1,10 +1,10 @@
 import { Metadata } from "next";
-import Header from "@/components/Home/Header";
-import Cards from "@/components/Home/Cards";
-import Services from "@/components/Home/Services";
-import Aboult from "@/components/Home/About";
-import Video from "@/components/Home/Video";
-import Course from "@/components/Home/Course";
+import Cards from "@/components/Cards";
+import Course from "@/components/Course";
+import ImageSection from "@/components/ImageSection";
+import DescriptionSection from "@/components/DescriptionSection";
+import OurServices from "@/components/OurServices";
+import MainHeader from "@/components/MainHeader";
 
 
 export const metadata: Metadata = {
@@ -18,13 +18,13 @@ export default function Home() {
   return (
     <>
       <header>
-        <Header />
+        <MainHeader />
       </header>
       <main>
         <Cards />
-        <Services />
-        <Aboult />
-        <Video />
+        <OurServices />
+        <DescriptionSection />
+        <ImageSection />
         <Course />
       </main>
     </>

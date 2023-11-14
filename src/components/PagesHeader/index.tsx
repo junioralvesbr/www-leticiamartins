@@ -8,7 +8,7 @@ type HeaderProps = {
   children: string
 }
 
-export default function Header({ banner, children }: HeaderProps) {
+export default function PagesHeader({ banner, children }: HeaderProps) {
   return (
     <div id="inicio">
       <div className="relative h-52 sm:h-96">

@@ -1,5 +1,5 @@
-import Header from "@/components/Pages/Header"
-import Section from "@/components/Pages/Section"
+import PagesHeader from "@/components/PagesHeader"
+import PagesWorks from "@/components/PagesWorks"
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
@@ -39,13 +39,13 @@ export default function Home() {
   return (
     <>
       <header>
-        <Header banner={banner}>
+        <PagesHeader banner={banner}>
           Pós Mudança
-        </Header>
+        </PagesHeader>
       </header>
 
       <main>
-        <Section data={data} />
+        <PagesWorks data={data} />
       </main>
     </>
   )

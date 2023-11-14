@@ -25,7 +25,7 @@ const data = [
   },
 ]
 
-export default function Services() {
+export default function OurServices() {
   return (
     <section className="px-8 mt-20 md:mt-32" id="services">
       <div className="max-w-6xl mx-auto">

@@ -2,7 +2,7 @@ import Image from "next/image";
 import LinkBuntton from "@/components/LinkButton";
 import { whatsAppLink } from "@/components/Whatsapp";
 
-export default function Aboult() {
+export default function DescriptionSection() {
   return (
     <section className="px-8 py-12 md:py-32">
       <article

@@ -2,7 +2,7 @@ import Image from 'next/image'
 import { whatsAppLink } from '../Whatsapp'
 import LinkBuntton from '../LinkButton'
 
-export default function Section({ data }: any) {
+export default function PagesWorks({ data }: any) {
   return (
     <section className='py-12'>
       {data && data.map((item: any, index: any) => (

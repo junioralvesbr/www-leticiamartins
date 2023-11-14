@@ -1,7 +1,7 @@
 import Image from "next/image";
 import LinkBuntton from "@/components/LinkButton";
 
-export default function Header() {
+export default function MainHeader() {
   return (
     <section className="flex flex-col gap-6 p-4 pt-5 mx-auto md:pt-10 md:flex-row md:justify-center md:items-center">
       <div className="flex flex-col gap-5">

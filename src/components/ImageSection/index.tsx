@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Video() {
+export default function ImageSection() {
   return (
     <section>
       <div className="h-[400px] relative md:h-[554px]">
