@@ -8,6 +8,9 @@ import Video from "@/components/Video";
 
 export const metadata: Metadata = {
   title: 'Sobre Mim - Leticia Martins Personal Organizer',
+  alternates: {
+    canonical: 'https://www.leticiamartins.com.br/sobremim'
+  },
 }
 
 export default function AboutMe() {

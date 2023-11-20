@@ -4,6 +4,9 @@ import { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: 'Pós Mudança - Leticia Martins Personal Organizer',
+  alternates: {
+    canonical: 'https://www.leticiamartins.com.br/posmudanca'
+  },
 }
 
 const banner = {
