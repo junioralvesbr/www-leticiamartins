@@ -15,7 +15,7 @@ export default function NavBar() {
   }
 
   return (
-    <nav className="navbar bg-base-100 border-b-[1px] px-4 md:px-12">
+    <nav className="navbar bg-white text-stone-700 border-b-[1px] px-4 md:px-12">
 
       {/* menu Mobile */}
       <div className="navbar-start">
@@ -24,7 +24,7 @@ export default function NavBar() {
             <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
           </label>
 
-          <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+          <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-white text-stone-700 rounded-box w-52">
             <li>
               <Link href="/" className='text-lg'>
                 Inicio
@@ -82,7 +82,7 @@ export default function NavBar() {
             <details id="details" ref={detailsRef}>
               <summary className='text-xl'>Serviços</summary>
 
-              <ul className="p-2 z-50">
+              <ul className="p-2 z-50 bg-white">
                 <li onClick={handleClick}>
                   <Link href="/residencial" className='text-lg whitespace-nowrap'>Organização Residencial</Link>
                 </li>
