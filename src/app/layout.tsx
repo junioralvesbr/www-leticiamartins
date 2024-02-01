@@ -13,15 +13,19 @@ const jost = Jost({
 })
 
 export const metadata: Metadata = {
-  description: 'Site da Leticia Martins personal organizer. Profissional especializada em organização de ambientes residenciais e empresariais. Tudo sobre organização, mudança residencial, conforto e bem estar no seu lar. Planeje seu movel de forma funcional e com organização.',
-  keywords: ['Curso', 'organização', 'personal organizer', 'curso de personal organizer', 'organizadores', 'Minha casa organizada', 'mudança', 'mudança residencial', 'organização empresarial', 'organização de lojas', 'organização de vitrines', 'marcenaria inteligente', 'movel planejado'],
+  description: 'Leticia Martins personal organizer. Profissional especializada em organização residencial, empresarial e pós-mudança.',
+  keywords: ['Curso', 'organização', 'personal organizer', 'personal organizer maringá', 'curso de personal organizer', 'organizadores', 'Minha casa organizada', 'mudança', 'mudança residencial', 'pós mudança', 'pós-mudança', 'organização empresarial', 'organização de lojas', 'organização de vitrines', 'moveis planejado'],
   robots: {
     index: true,
     follow: true,
     googleBot: {
       index: true,
       follow: false
-    }
+    },
+  },
+  openGraph: {
+    images: "/images/about.png",
+    title: "Sobre a Leticia Martins"
   },
   authors: { name: "Junior Alves" },
   icons: {

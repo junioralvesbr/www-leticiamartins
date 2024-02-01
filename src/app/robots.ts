@@ -6,6 +6,7 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: '*',
       allow: '/',
+      crawlDelay: 10000 //em segundos
     },
     sitemap: 'https://www.leticiamartins.com.br/sitemap.xml'
   }
